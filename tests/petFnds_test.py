@@ -65,7 +65,7 @@ def test_successful_delete_own_pet():
     pet_id = my_pets['pets'][0]['id']
     status, _ = ptFnd.delete_pet(auth_key, pet_id)
 
-    # Повторынй запрос списка 'своих питомцев'
+    # Повторный запрос списка 'своих питомцев'
     _, my_pets = ptFnd.get_list_of_pets(auth_key, 'my_pets')
 
     # Проверка того, что статус ответа = 200 и что в списке 'своих питомцев' нет id удаленного питомца
