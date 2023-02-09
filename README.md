@@ -1,6 +1,6 @@
 # posi_negaTive_tests_PF_24.7.2
 
-Реализация позитивных и негативных REST-запросов к API сайта "Pet Friends" https://petfriends.skillfactory.ru:
+Реализация 17-ти позитивных и негативных REST-запросов к API сайта "Pet Friends" https://petfriends.skillfactory.ru:
 - GET - получение API-ключа;
 - GET - получение списка "своих питомцев";
 - POST - добавление информации о новом питомце;
