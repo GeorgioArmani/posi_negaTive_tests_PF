@@ -1,6 +1,6 @@
 БАГИ!
 
-Список тестов, которые должны проваливаться (получать статус "FAILED"), но проходят (получают статус "PASSED" и код "200")
+Список тестов, которые должны проваливаться (получать статус "FAILED"), но проходят (получают статус "PASSED" и код "200"):
 - test_add_new_pet_with_photo_and_empty_data(name='', animal_type='', age='', pet_photo='images/zebra.jpg')
 - test_add_new_pet_without_photo_and_with_empty_data(name='', animal_type='', age='')
 - test_add_new_pet_with_incorrect_age(name='Алиса', animal_type='Зебра-шпионка', age='-2', pet_photo='images/zebra.jpg')
